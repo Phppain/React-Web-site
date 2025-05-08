@@ -1,0 +1,74 @@
+.kda-header {
+    width: 99vw;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to right, #1a1a2e, #16213e);
+    z-index: 999;
+    box-shadow: 0 4px 12px rgba(102, 204, 255, 0.2);
+  }
+  
+  .kda-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff66cc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .logo a:hover {
+    color: #66ccff;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .nav-links a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #66ccff;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    transition: width 0.3s;
+  }
+  
+  .nav-links a:hover::after,
+  .nav-links .active::after {
+    width: 100%;
+  }
+  
+  .login-button {
+    background: #66ccff;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background: #ff66cc;
+    color: white;
+  }

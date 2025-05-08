@@ -1,0 +1,41 @@
+.kda-footer {
+    background-color: #111;
+    color: #eee;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer-logo a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff66cc;
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .footer-links a:hover {
+    color: #fff;
+  }
+  
+  .footer-copy {
+    font-size: 0.9rem;
+    color: #888;
+  }

@@ -1,0 +1,17 @@
+.main-container {
+    padding: 60px 40px;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #66ccff;
+    margin-bottom: 30px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
